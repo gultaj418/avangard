@@ -80,7 +80,7 @@ header {
 .headerInfo p {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  color: var(--darkblue);
+  color: var(--main-black);
   font-size: 0.8rem;
   font-family: "Montserrat", sans-serif;
 }
@@ -1448,7 +1448,7 @@ h1 {
   .headerInfo p {
     margin-top: 0.3rem;
     margin-bottom: 0.3rem;
-    color: var(--darkblue);
+    color: var(--main-black);
     font-size: 0.6rem;
     font-family: "Montserrat", sans-serif;
   }
