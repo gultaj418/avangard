@@ -1,0 +1,26 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+</head>
+<body>
+    <form id="adminLogin" action="adminLogin.php" method="POST">
+        <p>
+        <?php echo $adminLogin->getError("Your email or password is incorrect");?>
+        <label for="adminEmail">Email</label>
+        <input id="adminEmail" name="adminEmail" type="text" placeholder="Email" required>
+        </p>
+        <p>
+        <label for="adminPassword">Password</label>
+        <input id="adminPassword" name="adminPassword" type="password" placeholder="Password" required>
+        </p>
+        <button type="submit" name="adminButton">Log in</button>
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,253 @@
+@media screen and (max-width: 768px) {
+  .line {
+    background-color: var(--darkblue);
+  }
+  .line:before {
+    background-color: var(--darkblue);
+  }
+  .line:after {
+    background-color: var(--darkblue);
+  }
+  .open {
+    background-color: var(--body-color);
+  }
+}
+
+
+
+header {
+  background: none;
+}
+
+nav ul li a, .mobile-ul li a {
+  color: var(--darkblue);
+}
+
+
+nav ul li a:hover,
+.mobile-ul li a:hover {
+  color: var(--darkblue);
+  border-bottom: 1px solid var(--darkblue);
+}
+
+.heavyBackground {
+  background-color: var(--body-color);
+  -webkit-transform: translateY(-35px);
+          transform: translateY(-35px);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.mobileHeavyBackground {
+  background-color: var(--body-color);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+hr {
+  margin: 0;
+}
+
+#headerContainer {
+  background-color: #ECEEF2;
+}
+
+nav ul li a {
+  color: var(--darkblue);
+}
+
+.productDetailsPageLinks {
+  margin: 0 10%;
+  color: var(--darkblue);
+  padding: 2rem 0;
+}
+
+.productDetailsPageLinks a {
+  font-family: "Open Sans";
+  color: var(--darkblue);
+}
+
+.productDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid var(--lightblue);
+}
+
+.productDetailsInfo {
+  border-right: 1px solid var(--lightblue);
+  width: 40%;
+  margin-left: 10%;
+}
+
+.productDetailsInfo h1 {
+  color: var(--darkblue);
+  font-family: "Montserrat" , sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.productDetailsInfo h2 {
+  font-size: 19px;
+  color: var(--darkblue);
+  font-family: "Montserrat" , sans-serif;
+  font-weight: bold;
+}
+
+.productDetailsInfo p {
+  color: #444444;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.productDetailsImage img {
+  width: 90%;
+}
+
+.productDetailsImage {
+  margin: auto;
+  width: 60%;
+}
+
+.productDetailsButton {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.productDetailsBtn {
+  background-color: var(--darkblue);
+  color: var(--white-text);
+  font-size: 14px;
+  border-radius: 4px;
+  color: #fafafa;
+  font-family: "Open Sans", sans-serif;
+  padding: 1rem 1.5rem;
+  margin-right: 2rem;
+}
+
+.productDetailsBtnSecond {
+  color: #444444;
+  border-bottom: 1px solid var(--lightblue);
+  font-family: "Open Sans" , sans-serif;
+  font-size: 14px;
+}
+
+.productDetailsButton {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid var(--lightblue);
+}
+
+
+.productSpecsImage img{
+  width: 80%;
+  position: relative;
+  display: flex;
+  margin: auto;
+}
+
+.productSpecs{
+  margin-bottom: 5%;
+}
+
+.productDetailsPageIpIcon {
+  background-color: var(--darkblue);
+  border-radius: 6px;
+  border: 1px solid var(--darkblue);
+  height: 50px;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px;
+}
+
+.productDetailsUp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 2rem;
+  margin-bottom: 4rem;
+}
+
+.productDetailsPageIpIcon img {
+  width: 40px;
+  height: 50px;
+}
+
+@media screen and (max-width: 1050px) {
+  .productDetailsInfo {
+    margin-left: 8%;
+    padding-right: 5%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .productDetailsImage img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .productDetailsImage {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .line {
+    background-color: var(--darkblue);
+  }
+  .productDetailsInfo h1 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .productDetails {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border-bottom: none;
+  }
+  .productDetailsImage {
+    width: 80%;
+  }
+  .productDetailsInfo {
+    width: 80%;
+    border: none;
+  }
+  .productDetailsButton {
+    border: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .productDetailsInfo h1 {
+    font-size: 23px;
+  }
+  .productDetailsBtn {
+    padding: 0.7rem 0.7rem;
+    margin-right: 1rem;
+  }
+}
+/*# sourceMappingURL=productDetails.css.map */

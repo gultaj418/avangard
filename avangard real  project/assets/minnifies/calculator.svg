@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31.387" height="34.175" viewBox="0 0 31.387 34.175">
+  <g id="calculator" transform="translate(-891.492 -5248)">
+    <g id="Rectangle_110" data-name="Rectangle 110" transform="translate(891.492 5248)" fill="none" stroke="#0f4c75" stroke-width="1">
+      <rect width="21.624" height="25.278" rx="6" stroke="none"/>
+      <rect x="0.5" y="0.5" width="20.624" height="24.278" rx="5.5" fill="none"/>
+    </g>
+    <g id="Rectangle_111" data-name="Rectangle 111" transform="translate(896.365 5252.264)" fill="none" stroke="#0f4c75" stroke-width="1">
+      <rect width="11.878" height="2.741" rx="1.371" stroke="none"/>
+      <rect x="0.5" y="0.5" width="10.878" height="1.741" rx="0.871" fill="none"/>
+    </g>
+    <g id="Rectangle_112" data-name="Rectangle 112" transform="translate(896.365 5258.659)" fill="none" stroke="#0f4c75" stroke-width="1">
+      <rect width="2.741" height="2.132" rx="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1.741" height="1.132" rx="0.5" fill="none"/>
+    </g>
+    <g id="Rectangle_113" data-name="Rectangle 113" transform="translate(901.238 5258.659)" fill="none" stroke="#0f4c75" stroke-width="1">
+      <rect width="2.741" height="2.132" rx="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1.741" height="1.132" rx="0.5" fill="none"/>
+    </g>
+    <g id="Rectangle_114" data-name="Rectangle 114" transform="translate(906.111 5258.659)" fill="none" stroke="#0f4c75" stroke-width="1">
+      <rect width="2.741" height="2.132" rx="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1.741" height="1.132" rx="0.5" fill="none"/>
+    </g>
+    <g id="Rectangle_115" data-name="Rectangle 115" transform="translate(906.111 5262.314)" fill="none" stroke="#0f4c75" stroke-width="1">
+      <rect width="2.741" height="2.132" rx="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1.741" height="1.132" rx="0.5" fill="none"/>
+    </g>
+    <g id="Rectangle_116" data-name="Rectangle 116" transform="translate(906.111 5265.969)" fill="none" stroke="#0f4c75" stroke-width="1">
+      <rect width="2.741" height="2.132" rx="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1.741" height="1.132" rx="0.5" fill="none"/>
+    </g>
+    <g id="Rectangle_117" data-name="Rectangle 117" transform="translate(901.238 5265.969)" fill="none" stroke="#0f4c75" stroke-width="1">
+      <rect width="2.741" height="2.132" rx="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1.741" height="1.132" rx="0.5" fill="none"/>
+    </g>
+    <g id="Rectangle_118" data-name="Rectangle 118" transform="translate(901.238 5262.314)" fill="none" stroke="#0f4c75" stroke-width="1">
+      <rect width="2.741" height="2.132" rx="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1.741" height="1.132" rx="0.5" fill="none"/>
+    </g>
+    <g id="Rectangle_119" data-name="Rectangle 119" transform="translate(896.365 5262.314)" fill="none" stroke="#0f4c75" stroke-width="1">
+      <rect width="2.741" height="2.132" rx="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1.741" height="1.132" rx="0.5" fill="none"/>
+    </g>
+    <g id="Rectangle_120" data-name="Rectangle 120" transform="translate(896.365 5265.969)" fill="none" stroke="#0f4c75" stroke-width="1">
+      <rect width="2.741" height="2.132" rx="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1.741" height="1.132" rx="0.5" fill="none"/>
+    </g>
+    <path id="Path_180" data-name="Path 180" d="M982.132,3006.5h8.843l-3.463,6.142h3.463l-7.117,10.964v-6.091H980V3016.4" transform="translate(-69.016 2256.88)" fill="none" stroke="#0f4c75" stroke-width="1"/>
+  </g>
+</svg>

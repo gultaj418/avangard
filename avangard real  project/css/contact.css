@@ -1,0 +1,357 @@
+@media screen and (max-width: 768px) {
+  .line {
+    background-color: var(--darkblue);
+  }
+  .line:before {
+    background-color: var(--darkblue);
+  }
+  .line:after {
+    background-color: var(--darkblue);
+  }
+  .open {
+    background-color: var(--body-color);
+  }
+}
+
+header {
+  background: none;
+}
+
+nav ul li a, .mobile-ul li a {
+  color: var(--darkblue);
+}
+
+.heavyBackground {
+  background-color: var(--body-color);
+  -webkit-transform: translateY(-35px);
+          transform: translateY(-35px);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.mobileHeavyBackground {
+  background-color: var(--body-color);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.contactPageLinks {
+  margin: 2rem 4rem;
+}
+
+.contactPageLinks a {
+  font-family: "Open Sans";
+  color: var(--darkblue);
+}
+
+nav ul li a:hover,
+.mobile-ul li a:hover {
+  color: var(--darkblue);
+  border-bottom: 1px solid var(--darkblue);
+}
+
+.contactPageInfo {
+  margin-bottom: 14rem;
+}
+
+.contactPageCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contactPageCardInfo {
+  width: 23%;
+  height: 180px;
+  border: 4px solid white;
+  -webkit-box-shadow: 0 0 5px #00000029;
+          box-shadow: 0 0 5px #00000029;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+
+.contactPageCardInfo img {
+  width: 11%;
+}
+
+.contactPageCardInfo h2 {
+  color: var(--mainblack);
+  font-size: 18px;
+  font-family: "Monserrat";
+  font-weight: bold;
+}
+
+.contactPageCardInfo p {
+  color: #444;
+  font-size: 13px;
+  line-height: 27px;
+}
+
+.contactUs {
+  margin-bottom: 6rem;
+}
+
+.contactUsFlex {
+  width: 45%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #3282B8;
+  left: 27%;
+  -webkit-box-shadow: 0 0 50px #8A959E33;
+          box-shadow: 0 0 50px #8A959E33;
+  border-radius: 5px;
+}
+
+.contactUsInfo {
+  margin-top: 1.5rem;
+  margin-left: 3rem;
+  border-radius: 5px;
+}
+
+.contactFormElementStyle {
+  width: 200px;
+  background-color: #FAFAFA;
+  height: 25px;
+  border: 2px solid white;
+  -webkit-box-shadow: 0 0 5px #00000029;
+          box-shadow: 0 0 5px #00000029;
+  color: #9A9A9A;
+  margin-bottom: 0.8rem;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #0F4C75;
+}
+
+.contactUsInfo button {
+  width: 210px;
+  height: 30px;
+  background-color: #FAFAFA;
+  margin-bottom: 2rem;
+  color: #0F4C75;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+  border: 2px solid #0F4C75;
+}
+
+.contactUsImage {
+  position: relative;
+  left: 12%;
+}
+
+.contactUsImage img {
+  position: relative;
+  width: 85%;
+  top: 30%;
+}
+
+.contactUsInfo h1 {
+  color: #FAFAFA;
+  font-size: 20px;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.contactUsInfo p {
+  color: #eee;
+  font-size: 12px;
+}
+
+.contactUsInfo label {
+  color: #EEEEEE;
+  font-size: 12px;
+}
+
+.contactUsInfo select {
+  width: 207px;
+  background-color: #FAFAFA;
+  height: 30px;
+  border: 2px solid white;
+  -webkit-box-shadow: 0 0 5px #00000029;
+          box-shadow: 0 0 5px #00000029;
+  color: #9A9A9A;
+  margin-bottom: 0.8rem;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+select:focus {
+  outline: none;
+  border: 2px solid #0F4C75;
+}
+
+.styled-select select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  color: var(--darkblue);
+}
+
+.contactPageIpIcon {
+  background-color: var(--darkblue);
+  border-radius: 6px;
+  border: 1px solid var(--darkblue);
+  height: 50px;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px;
+}
+
+.contactUp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 2rem;
+  margin-bottom: 4rem;
+}
+
+.contactPageIpIcon img {
+  width: 40px;
+  height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .contactPageCardInfo {
+    width: 30%;
+  }
+  .contactUsFlex {
+    width: 58%;
+    left: 21%;
+  }
+  .line {
+    background-color: var(--darkblue);
+  }
+  .line:before {
+    background-color: var(--darkblue);
+  }
+  .line:after {
+    background-color: var(--darkblue);
+  }
+  .open {
+    background-color: var(--body-color);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .line {
+    background-color: var(--darkblue);
+  }
+  .contactPageCard {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contactPageCardInfo {
+    width: 50%;
+    margin-bottom: 5%;
+  }
+  .contactUsInfo p {
+    width: 60%;
+  }
+  .contactUsImage {
+    display: none;
+  }
+  .contactUsFlex {
+    width: 70%;
+    left: 16%;
+  }
+  .contactFormElementStyle {
+    height: 30px;
+  }
+  .contactUsInfo select {
+    height: 38px;
+  }
+  .contactUsInfo button {
+    height: 38px;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .contactFormElementStyle {
+    height: 20px;
+    width: 150px;
+  }
+  .contactUsInfo select {
+    height: 30px;
+    width: 159px;
+  }
+  .contactUsInfo h1 {
+    font-size: 16px;
+  }
+  .contactUsInfo button {
+    height: 30px;
+    width: 163px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .contactUsFlex {
+    width: 70%;
+  }
+  .contactUs {
+    margin-top: 4rem;
+  }
+  .contactPageCardInfo {
+    width: 60%;
+  }
+  .contactPageCard {
+    width: 80%;
+    margin: auto;
+  }
+  .contactUsInfo {
+    margin-left: 1rem;
+    margin-bottom: 0;
+  }
+  .contactPageInfo {
+    margin-bottom: 0;
+  }
+}
+
+.errorOrSuccessMessage{
+  height:30px;
+  display:none;
+  background-color: #52b202;
+  color:black;
+  border:none;
+  padding:5px;
+}
+.visibleErrorMessage{
+  display:block;
+}
+/*# sourceMappingURL=contact.css.map */

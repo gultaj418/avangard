@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form id="editForm" name="editForm" action='editSocialMedia.php?id=<?php echo $id ?>' method="POST">
+    <p>
+    <label for="editMediaName">Social Media Name</label>
+    <input id="editMediaName" name="mediaName" type="text" placeholder="Name" value="<?php echo $socialMediaName ?>">
+    </p>
+    <p>
+    <label for="editMedialinks">Social Media Link</label>
+    <input id="editMedialinks" name="mediaLink" type="text" placeholder="Link" value="<?php echo $socialMediaLink ?>" >
+    </p>
+    <button type="submit" name="editSocialMediaButton">Save</button>
+
+</form>
+
+</body>
+</html>

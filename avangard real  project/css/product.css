@@ -1,0 +1,163 @@
+@media screen and (max-width: 768px) {
+  .line {
+    background-color: var(--darkblue);
+  }
+  .line:before {
+    background-color: var(--darkblue);
+  }
+  .line:after {
+    background-color: var(--darkblue);
+  }
+  .open {
+    background-color: var(--body-color);
+  }
+}
+
+header {
+  background: none;
+}
+
+nav ul li a, .mobile-ul li a {
+  color: var(--darkblue);
+}
+
+.heavyBackground {
+  background-color: var(--body-color);
+  -webkit-transform: translateY(-35px);
+          transform: translateY(-35px);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.mobileHeavyBackground {
+  background-color: var(--body-color);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+
+nav ul li a:hover,
+.mobile-ul li a:hover {
+  color: var(--darkblue);
+  border-bottom: 1px solid var(--darkblue);
+}
+
+.productPageLinks {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.productPageLinks a {
+  font-family: "Open Sans";
+  color: var(--darkblue);
+}
+
+.productPage {
+  margin: 5%;
+}
+
+#productRightArrow {
+  width: 14px;
+  left: 0;
+}
+
+.productPageHeading h1 {
+  text-align: center;
+  color: var(--darkblue);
+  font-family: "Montserrat" sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: -50px;
+}
+
+#withoutH3 {
+  height: 60px;
+}
+
+.ProductDownloadButton {
+  margin-bottom: 6rem;
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.ProductDownloadButton a {
+  border: 1px solid var(--darkblue);
+  padding: 0.9rem;
+  background-color: var(--darkblue);
+  color: #FAFAFA;
+  font-size: 12px;
+  border-radius: 2px;
+}
+
+section a {
+  border: none;
+}
+
+#helpCalculatorButton {
+  border: none;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  border-bottom: 1.5px solid var(--lightblue);
+  color: var(--white-text);
+  background: none;
+  font-size: 13px;
+  font-family: "Open Sans" sans-serif;
+  border-radius: 0;
+  padding: 0;
+  margin-left: 1rem;
+}
+
+.productPageIpIcon {
+  background-color: var(--darkblue);
+  border-radius: 6px;
+  border: 1px solid var(--darkblue);
+  height: 50px;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px;
+}
+
+.productUp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 2rem;
+  margin-bottom: 4rem;
+}
+
+.productPageIpIcon img {
+  width: 40px;
+  height: 50px;
+}
+
+@media screen and (max-width: 680px) {
+  .productPageHeading h1 {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .productPageHeading h1 {
+    margin-top: 2rem;
+  }
+}
+/*# sourceMappingURL=product.css.map */

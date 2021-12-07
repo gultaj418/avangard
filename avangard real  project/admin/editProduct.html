@@ -1,0 +1,37 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form id="editProduct" name="editProduct" action='editProduct.php?id=<?php echo $id ?>' method="POST" >
+            <p>
+            <label for="editProductName">Product Name</label>
+            <input id="editProductName" name="productName" type="text" placeholder="Name" value="<?php echo htmlentities($productName) ;?>">
+            </p>
+            <p>
+            <label for="editProductCategory">Product Category</label>
+            <input id="editProductCategory" name="productCategory" type="text" placeholder="Category" value="<?php echo htmlentities($productCategory);?>">
+            </p>
+            <p>
+            <label for="editProductContent">Product Content</label>
+            <input id="editProductContent" name="productContent" type="text" placeholder="Content" value="<?php echo htmlentities($productContent);?>">
+            </p>
+            <p>
+            <label for="editProductPower">Product Power</label>
+            <input id="editProductPower" name="productPower" type="text" placeholder="Power" value="<?php echo $productPower ?>">
+            </p>
+            <p>
+            <label for="editProductPicture">Product Image</label>
+            <input id="editProductPicture" name="productImage" type="file" placeholder="Picture" value="<?php echo $productPicture ?>">
+            </p>
+
+            <button type="submit" name="editProductButton">Save</button>
+
+    </form>
+</body>
+</html>

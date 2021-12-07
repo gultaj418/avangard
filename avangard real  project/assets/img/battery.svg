@@ -1,0 +1,15 @@
+<svg id="battery" xmlns="http://www.w3.org/2000/svg" width="699" height="282" viewBox="0 0 699 282">
+  <g id="Group_146" data-name="Group 146">
+    <line id="Line_59" data-name="Line 59" y1="282" transform="translate(699 141) rotate(90)" fill="none" stroke="#fafafa" stroke-width="5"/>
+    <line id="Line_60" data-name="Line 60" x2="63" transform="translate(477 90)" fill="none" stroke="#fafafa" stroke-width="4"/>
+  </g>
+  <line id="Line_57" data-name="Line 57" y1="167" transform="translate(417 57.5)" fill="none" stroke="#fafafa" stroke-width="5"/>
+  <line id="Line_56" data-name="Line 56" y1="282" transform="translate(282)" fill="none" stroke="#fafafa" stroke-width="5"/>
+  <g id="Group_145" data-name="Group 145">
+    <line id="Line_58" data-name="Line 58" y1="282" transform="translate(282 141) rotate(90)" fill="none" stroke="#fafafa" stroke-width="5"/>
+    <g id="Group_144" data-name="Group 144" transform="translate(-851.5 -5120.5)">
+      <line id="Line_60-2" data-name="Line 60" x2="63" transform="translate(1010.5 5210.5)" fill="none" stroke="#fafafa" stroke-width="4"/>
+      <line id="Line_61" data-name="Line 61" x2="63" transform="translate(1042 5179) rotate(90)" fill="none" stroke="#fafafa" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

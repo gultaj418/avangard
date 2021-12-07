@@ -1,0 +1,391 @@
+@media screen and (max-width: 768px) {
+  .line {
+    background-color: var(--darkblue);
+  }
+  .line:before {
+    background-color: var(--darkblue);
+  }
+  .line:after {
+    background-color: var(--darkblue);
+  }
+  .open {
+    background-color: var(--body-color);
+  }
+}
+
+header {
+  background: none;
+}
+
+nav ul li a, .mobile-ul li a {
+  color: var(--darkblue);
+}
+
+.heavyBackground {
+  background-color: var(--body-color);
+  -webkit-transform: translateY(-35px);
+          transform: translateY(-35px);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.mobileHeavyBackground {
+  background-color: var(--body-color);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+header {
+  background: #fafafa;
+  padding: 0;
+}
+
+hr {
+  margin: 0;
+}
+
+#headerContainer {
+  background-color: #ECEEF2;
+}
+
+nav ul li a {
+  color: var(--darkblue);
+}
+
+
+nav ul li a:hover,
+.mobile-ul li a:hover {
+  color: var(--darkblue);
+  border-bottom: 1px solid var(--darkblue);
+}
+
+.servicePageLinks {
+  margin: 0 4rem;
+  color: #eee;
+  padding: 2rem 0;
+}
+
+.servicePageLinks a {
+  font-family: "Open Sans";
+  color: #eee;
+}
+
+.mainServices {
+  width: 100%;
+  background-image: url(../assets/img/service-bg.png);
+}
+
+.mainServicesContent {
+  width: 70%;
+  margin: 2rem 6rem;
+  padding-bottom: 2rem;
+}
+
+.mainServices h1 {
+  color: #FAFAFA;
+  font-size: 30px;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.mainServices p {
+  color: #FAFAFA;
+  font-family: "Open Sans";
+  line-height: 23px;
+  width: 45%;
+}
+
+#servicesBtn {
+  display: inline-block;
+  border: 1px solid var(--darkblue);
+  padding: 0.7rem;
+  text-align: center;
+  background-color: #ffff;
+  border-radius: 5px;
+  color: var(--darkblue);
+  width: 14%;
+  font-size: 14px;
+  font-family: "Open Sans";
+}
+
+.servicesPageContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 5rem;
+  margin-top: 10rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.servicesParagraf h2 {
+  color: #1B262C;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.servicesParagraf p {
+  color: #444;
+  font-family: "Open Sans";
+  font-size: 13px;
+}
+
+.servicesParagraf {
+  width: 38%;
+  margin: auto;
+}
+
+.serviceImage {
+  width: 35%;
+  margin: auto;
+}
+
+.serviceImage img {
+  width: 100%;
+}
+
+.serviceContact {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #3282B8;
+  margin: auto;
+  border-radius: 5px;
+  margin-bottom: 5rem;
+}
+
+.serviceContactContent {
+  width: 45%;
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+
+.serviceContactContent h2 {
+  color: #fafafa;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.serviceContactContent p {
+  font-family: "Open Sans";
+  color: #eee;
+  font-size: 12px;
+}
+
+.serviceContactContent label {
+  color: #EEEEEE;
+  font-size: 12px;
+}
+
+.serviceContactContent input {
+  width: 200px;
+  background-color: #FAFAFA;
+  height: 25px;
+  border: 2px solid white;
+  -webkit-box-shadow: 0 0 5px #00000029;
+          box-shadow: 0 0 5px #00000029;
+  color: #9A9A9A;
+  margin-bottom: 0.8rem;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+.serviceContactContent button {
+  width: 210px;
+  height: 30px;
+  background-color: #FAFAFA;
+  margin-bottom: 2rem;
+  color: #0F4C75;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #0F4C75;
+}
+
+button:focus {
+  outline: none;
+  border: 2px solid #0F4C75;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.serviceContactImage {
+  width: 25%;
+}
+
+.serviceContactImage img {
+  width: 100%;
+}
+
+.servicePageIpIcon {
+  background-color: var(--darkblue);
+  border-radius: 6px;
+  border: 1px solid var(--darkblue);
+  height: 50px;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px;
+}
+
+.serviceUp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 2rem;
+  margin-bottom: 4rem;
+}
+
+.servicePageIpIcon img {
+  width: 40px;
+  height: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  .serviceImage {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .mainServices p {
+    width: 80%;
+  }
+  .mainServices h1 {
+    font-size: 25px;
+  }
+  .mainServicesContent {
+    margin: 2rem 4rem;
+  }
+  #servicesBtn {
+    width: 25%;
+    font-size: 12px;
+  }
+  .servicesParagraf {
+    width: 54%;
+  }
+  .serviceImage {
+    width: 40%;
+  }
+  .serviceContactImage img {
+    width: 88%;
+    position: relative;
+    top: 25%;
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .servicesParagraf {
+    width: 40%;
+  }
+  .serviceContact {
+    width: 75%;
+    left: 15%;
+  }
+  .serviceContactContent input {
+    height: 22px;
+  }
+  .serviceContactContent h2 {
+    font-size: 15px;
+  }
+  .line {
+    background-color: var(--darkblue);
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .mainServicesContent {
+    margin: 2rem 2rem;
+    width: 80%;
+  }
+  .mainServices h1 {
+    font-size: 20px;
+  }
+  .mainServices p {
+    width: 100%;
+  }
+  #servicesBtn {
+    padding: 0.9rem;
+    width: 30%;
+    font-size: 15px;
+  }
+  .servicesPageContent {
+    margin: 0;
+  }
+  .serviceImage {
+    display: none;
+  }
+  .servicesParagraf {
+    margin-left: 3rem;
+    width: 80%;
+    margin-top: 6rem;
+  }
+  .serviceContact {
+    margin-top: 5rem;
+  }
+  .serviceContactImage {
+    display: none;
+  }
+  .serviceContactContent {
+    margin-left: 2rem;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .servicesParagraf {
+    margin-left: 2rem;
+    width: 80%;
+  }
+  .servicesParagraf {
+    margin-top: 2rem;
+  }
+  .servicePageLinks {
+    margin: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .serviceContactContent {
+    margin-left: 1rem;
+  }
+  .serviceContactContent input {
+    width: 160px;
+  }
+  .serviceContactContent button {
+    width: 168px;
+  }
+  .mainServices h1 {
+    font-size: 16px;
+  }
+  .mainServices p {
+    width: 81%;
+  }
+}
+/*# sourceMappingURL=services.css.map */

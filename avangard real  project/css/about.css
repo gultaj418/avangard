@@ -1,0 +1,322 @@
+@media screen and (max-width: 768px) {
+  .line {
+    background-color: var(--darkblue);
+  }
+  .line:before {
+    background-color: var(--darkblue);
+  }
+  .line:after {
+    background-color: var(--darkblue);
+  }
+  .open {
+    background-color: var(--body-color);
+  }
+}
+
+
+header {
+  background: none;
+}
+
+nav ul li a, .mobile-ul li a {
+  color: var(--darkblue);
+}
+
+.heavyBackground {
+  background-color: var(--body-color);
+  -webkit-transform: translateY(-35px);
+          transform: translateY(-35px);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.mobileHeavyBackground {
+  background-color: var(--body-color);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+header {
+  padding: 0;
+}
+
+hr {
+  margin: 0;
+}
+
+#headerContainer {
+  background-color: #ECEEF2;
+}
+
+nav ul li a {
+  color: var(--darkblue);
+}
+
+nav ul li a:hover,
+.mobile-ul li a:hover {
+  color: var(--darkblue);
+  border-bottom: 1px solid var(--darkblue);
+}
+
+.aboutPageLinks {
+  margin: 0 4rem;
+  color: #eee;
+  padding: 2rem 0;
+}
+
+.aboutPageLinks a {
+  font-family: "Open Sans";
+  color: #eee;
+}
+
+.aboutCompany {
+  background-image: url("../assets/img/about-bg.png");
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  padding-bottom: 0.5rem;
+}
+
+.aboutCompanyHeading {
+  width: 50%;
+}
+
+.aboutCompanyHeading h1 {
+  color: #fafafa;
+  font-size: 34px;
+  font-family: "Monserrat";
+  font-weight: bold;
+}
+
+.aboutCompany p {
+  width: 75%;
+  color: #FAFAFA;
+  font-size: 16px;
+  font-family: "Open Sans";
+  line-height: 25px;
+}
+
+.aboutCompanyHeading {
+  margin-left: 12rem;
+  margin-bottom: 2rem;
+}
+
+.aboutCompanyButton {
+  margin-left: 12rem;
+  margin-bottom: 5rem;
+}
+
+.btn {
+  width: 12%;
+}
+
+.aboutCompanyContent {
+  padding: 2rem 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aboutCompanyParagraf {
+  width: 30%;
+  margin-left: 6rem;
+  margin-top: 2rem;
+}
+
+.aboutCompanyParagraf h2 {
+  color: var(--darkblue);
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 2rem;
+}
+
+.aboutCompanyParagraf p {
+  color: #444444;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.aboutCompanyImage img {
+  width: 70%;
+}
+
+.aboutCompanyImage p{
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  color: #5e5e5e;
+}
+
+.rayonlar {
+  width: 60%;
+  position: relative;
+  left: 40%;
+}
+
+.companies {
+  width: 80%;
+  position: relative;
+  left: 5%;
+}
+
+.tecrube {
+  width: 60%;
+  position: relative;
+  left: 30%;
+}
+
+.aboutPageIpIcon {
+  background-color: var(--darkblue);
+  border-radius: 6px;
+  border: 1px solid var(--darkblue);
+  height: 50px;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px;
+}
+
+.aboutUp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 2rem;
+  margin-bottom: 4rem;
+}
+
+.aboutPageIpIcon img {
+  width: 40px;
+  height: 50px;
+}
+
+@media screen and (max-width: 990px) {
+  .aboutCompanyContent {
+    padding: 1rem 1rem;
+  }
+  .aboutCompanyParagraf {
+    width: 50%;
+    margin-left: 4rem;
+  }
+  .aboutCompanyImage img {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aboutCompanyHeading {
+    margin-left: 4rem;
+  }
+  .aboutCompanyHeading h1 {
+    font-size: 25px;
+  }
+  .aboutCompany p {
+    width: 100%;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+  }
+  .aboutCompanyButton {
+    margin-left: 4rem;
+  }
+  .btn {
+    width: 20%;
+  }
+  .aboutCompanyContent {
+    padding: 0;
+  }
+  .aboutCompanyParagraf {
+    margin-left: 4rem;
+    width: 40%;
+  }
+  .aboutCompanyParagraf h2 {
+    font-size: 17px;
+  }
+  .aboutCompanyParagraf p {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 12px;
+  }
+  .tecrube {
+    margin-top: 8rem;
+  }
+  .companies {
+    margin-top: 5rem;
+  }
+  .line {
+    background-color: var(--darkblue);
+  }
+  .open {
+    background-color: #fff;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .aboutCompanyParagraf h2 {
+    margin-top: 1rem;
+  }
+  .aboutCompanyParagraf {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .aboutCompanyParagraf {
+    width: 80%;
+  }
+  .aboutCompanyImage {
+    margin-top: 3rem;
+  }
+  .aboutCompanyImage p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .aboutPageLinks {
+    margin: 2rem 2rem;
+  }
+  .aboutCompanyImage {
+    display: none;
+  }
+  .aboutCompanyParagraf {
+    margin-left: 2rem;
+    width: 80%;
+  }
+  .aboutCompanyButton {
+    margin-left: 2rem;
+  }
+  .btn {
+    width: 38%;
+  }
+  .aboutCompanyHeading {
+    margin-left: 2rem;
+    width: 70%;
+  }
+  .aboutCompanyHeading h1 {
+    font-size: 17px;
+  }
+  .line {
+    background-color: var(--darkblue);
+  }
+}
+/*# sourceMappingURL=aboutCompany.css.map */
